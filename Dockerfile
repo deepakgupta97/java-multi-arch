@@ -8,4 +8,4 @@ COPY . /app
 WORKDIR /app
 
 # Set the entry point command
-CMD ["java", "-cp", "target/my-java-app.jar", "HelloWorld"]
+CMD ["java", "-cp", "target/my-java-app-1.0.0.jar", "HelloWorld"]
